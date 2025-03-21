@@ -1,9 +1,6 @@
-@echo off@echo off
+@echo off
 chcp 65001 >nul
-:: 65001 - UTF-8
-
-:: Admin rights check
-echo СУКА АЛЛО БЛЯТЬ ПИСАЛ ЧЕРНЫМ ПО БЕЛОМУ ЧТО НАДО БЛЯТЬ ОТ ИМЕНИ АДМИНИСТРАТОРА.
+echo СУКА АЛЛО БЛЯТЬ ЧЁРНЫМ ПО БЕЛОМУ НАПИСАНО, ЧТО НАДО БЛЯТЬ ОТ ИМЕНИ АДМИНИСТРАТОРА.
 echo Нажмите любую клавишу, чтобы продолжить создание сервиса.
 pause
 
@@ -15,11 +12,9 @@ set ARGS=--wf-tcp=80,443 --wf-udp=443,50000-65535 ^
 --filter-tcp=443 --hostlist=\"%~dp01.txt\" --dpi-desync=fake --dpi-desync-ttl=7 --dpi-desync-fake-tls-mod=rnd,rndsni,padencap
 
 set SRVCNAME=RKNHook
-
 net stop %SRVCNAME%
 sc delete %SRVCNAME%
 sc create %SRVCNAME% binPath= "\"%BIN%winws.exe\" %ARGS%" DisplayName= "LOLSOSU : %SRVCNAME%" start= auto
 sc description %SRVCNAME% ""
 sc start %SRVCNAME%
-
 pause
