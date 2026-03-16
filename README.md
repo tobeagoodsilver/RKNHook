@@ -1,6 +1,6 @@
  Форк zapret-win-bundle с кучей конфигов  
  от @tobeagoodsilver для GintaSuperesse  
- https://t.me/tobeagoodsilver 
+https://t.me/GintaSuperesse
  
  # Использование 
  Не закидываем на рабочий стол, проверяйте путь на наличие кириллицы. Запускаем всё от имени администратора.  
