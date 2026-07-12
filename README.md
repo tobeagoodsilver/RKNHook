@@ -24,7 +24,7 @@ IPv6
 2001:4860:4860::8844 https вкл  
 # hosts  
 Предлагаю прописать в файл C:\Windows\System32\drivers\etc\hosts  
-прописать следующее  
+следующее  
 149.154.167.220 zws4.web.telegram.org  
 149.154.167.220 vesta.web.telegram.org  
 149.154.167.220 vesta-1.web.telegram.org  
