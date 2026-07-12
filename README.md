@@ -1,6 +1,8 @@
  Форк zapret-win-bundle с кучей конфигов  
  от @tobeagoodsilver для GintaSuperesse  
-https://t.me/GintaSuperesse
+https://t.me/GintaSuperesse  
+Качайте через code - download zip  
+чтоб мне меньше приходилось менять каждый раз
  
  # Использование 
  Не закидываем на рабочий стол, проверяйте путь на наличие кириллицы. Запускаем всё от имени администратора.  
